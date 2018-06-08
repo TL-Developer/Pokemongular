@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  title: String = "Pokemongular"
+  title: string;
 
   constructor() {
-
+    this.title = "Pokemongular";
   }
 
   ngOnInit() {

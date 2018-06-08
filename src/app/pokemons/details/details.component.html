@@ -1,0 +1,6 @@
+<input type="text"
+  (keyup)="autoComplete($event)"
+  (keyup.enter)="searchPokemon()"
+  (blur)="searchPokemon()"
+  placeholder="Search pokemon by name...">
+<button (click)="searchPokemon()">Buscar</button>
